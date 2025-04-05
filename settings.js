@@ -1,22 +1,3 @@
-//══════════════════════════════════════════════════════════════════════════════════════════════════════//
-//*
-//  * @project_name : TOHID-MOVIE
-//  * @author : Mr Tohid 
-//  * @youtube : https://www.youtube.com/@Tohidkhan_6332
-//  * @description : TOHID-MOVIE ,A Multi-functional whatsapp user bot.
-//*
-//*
-//base by Tohid Khan 
-//GitHub: @Tohidkhan6332
-//WhatsApp: 917849917350
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@Tohidkhan_6332
-//   * Created By Github: Tohidkhan6332.
-//   * Credit To Manul Official
-//   * © 2024 TOHID-MOVIES-V7.
-// ⛥┌┤
-// */
-
-
 const fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 function convertToBool(text, fault = 'true') {
